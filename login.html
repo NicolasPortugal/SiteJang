@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JANG</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="imagens/fav.png">
+    <script src="code.js"></script>
+</head>
+<body id="uma-coluna">
+    
+    <div id="container"> <!--inicio container-->
+        <div id="topo"><!--inicio topo-->
+
+            <div id="area-logo">
+                <h1 class="logo">
+                    <a href="">JANG</a>
+                </h1>
+            </div>
+
+            <div id="area-menu">
+                <div id="conteudo-menu">
+                    <div id="menu-locais">
+                        <span class="locais">
+                            Somente em Curitiba
+                        </span>
+                        <a class="login" href="login.html">Login</a>
+                        <div style="clear: both;"></div>
+                    </div>
+
+                    <div id="menu">
+                        <ul id="navegacao">
+                            <li><a href="index.html">Início</a></li>
+                            <li><a href="historia.html">História</a></li>
+                            <li><a href="servico.html">Serviços</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+
+                        <a class="slogan" href=""></a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div><!--fim topo-->
+
+        <div id="area-principal">
+            <div class="conteudo">
+                <h2>
+                    Cadastre-se
+                </h2>
+                    <form action="">
+
+                        <div>
+                            <label for="nome    ">Nome:</label>
+                            <input type="text" name="name" id="nome" placeholder="Nome">
+                        </div>
+
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="text" name="email" id="email" placeholder="E-mail">
+                        </div>
+                        
+                        <div>
+                            <label for="senha">Senha:</label>
+                            <input type="password" name="password" id="senha" placeholder="Senha">
+                        </div>
+
+                        <div>
+                            <input onclick="mostrarAlerta()" class="submit" type="submit" value="Login">
+                        
+    
+                        </div>
+                    </form>
+            </div>
+        </div>
+
+        <div id="rodape">
+            <span>
+                &copy; Copyright    
+            </span>
+        </div>
+
+    </div><!--fim container-->
+
+</body>
+</html>
