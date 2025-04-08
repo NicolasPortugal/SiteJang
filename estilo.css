@@ -25,7 +25,7 @@ body {
 }
 
 
-#topo {
+header {
     position: relative;
     background: #ffffff;
     height: 15.4em;
@@ -113,7 +113,7 @@ a.login:hover {
 }
 
 /* Barra de navegação vertical */
-#menu {
+nav {
     margin-top: 15px;
 }
 
@@ -156,20 +156,20 @@ ul#navegacao a:hover {
 }
 
 /* Area de conteúdos */
-#area-principal {
+
+main {
     float: left;
-    
     color: white;
     padding: 15px 0px;
 }
 
-#area-lateral {
+aside {
     float: right;
 
     padding: 20px 0px;
 }
 
-.conteudo {
+article {
     margin: 0 auto;
     width: 90%;
     line-height: 1.8;
@@ -177,11 +177,11 @@ ul#navegacao a:hover {
     
 }
 
-.conteudo h2 {
+article h2 {
     font-size: 1.8em;
 }
 
-#rodape {
+footer {
     display: block;
     width: 90%;
     clear: both;
@@ -282,11 +282,12 @@ p {
 
 
 /*Colunas*/
-#uma-coluna #area-principal {
+
+#uma-coluna main {
     width: 100%;
 }
 
-#uma-coluna #area-lateral {
+#uma-coluna aside {
     width: 100%;
 }
 
@@ -341,6 +342,7 @@ input.submit:hover {
 
 .texto p {
     text-indent: 2em;
+    color: white;
 }
 
 
@@ -353,7 +355,7 @@ input.submit:hover {
     flex-wrap: wrap; 
 }
 
-#area-principal, #area-lateral {
+main, aside {
     flex: 1;
     min-width: 300px;
 }
@@ -405,10 +407,9 @@ input.submit:hover {
       display: inline-block;
       margin: 0 5px;
     }
-  
-    #area-principal, #area-lateral {
+
+    main, aside {
         float: none;
-      
         width: 100%;
         padding: 10px;
     }
@@ -425,7 +426,7 @@ input.submit:hover {
       margin: 0 auto 10px;
     }
     
-    #topo {
+    header {
         position: relative;
         background: #000000;
         height: 15.4em;
